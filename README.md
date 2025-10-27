@@ -1,26 +1,31 @@
-✅ Project Objective
+🎯 Project Objective
 
-The main objective of this project is to predict player selection and auction price in the upcoming IPL Mega Auction based on historical player performance statistics and previous IPL auction data.
+The objective of this project is to develop a predictive analytics model for the IPL Mega Auction. The model focuses on two key tasks:
 
-Specifically, the project aims to:
+1️⃣ Player Selection Prediction
 
-Player Selection Prediction
+Predict whether a player will be sold or unsold in the upcoming IPL Mega Auction.
 
-Build a classification model to predict whether a player will be selected (sold) or not selected (unsold) in the Mega Auction.
+This will be performed using a classification model with the output label:
 
-Output: Sold = 1 or Unsold = 0
+1 → Player Sold
 
-Price Prediction for Selected Players
+0 → Player Unsold
 
-For the players predicted as "sold", build a regression model to estimate the best expected price they might be purchased for in the auction.
+2️⃣ Auction Price Prediction
 
-Output: Estimated auction price in crores (₹ Cr.)
+For players predicted as sold, estimate the best expected auction price (in ₹ Crores).
 
-🎯 Final Deliverables
-Output	Type	Description
-Player Sold Status	Classification	Predicts if a player will be selected in the Mega Auction
-Predicted Price	Regression	Predicts best possible auction price for selected players
+This will be performed using a regression model to forecast likely bidding outcomes.
 
-📌 Short Summary Version
+✅ Final Goal
 
-This project predicts whether a player will be sold in the IPL Mega Auction and, if sold, estimates the best buying price based on past IPL stats and auction data.
+To assist IPL franchises in:
+
+Identifying high-probability auction picks
+
+Making more data-driven decisions in squad building
+
+Optimizing their budget utilization
+
+This project combines player performance metrics and historical auction records to build a reliable and intelligent prediction system for player demand and valuation in the IPL Mega Auction.
